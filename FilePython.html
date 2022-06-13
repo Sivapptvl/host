@@ -13,13 +13,13 @@
 <py-script>print("hi")</py-script>
 
 <py-script>
-def f():
-   file = open("myfile.txt")
-   file.write("hi")
-   print("written")
+file = open("myfile.txt")
+file.write("hi")
+print("written")
+file.close()
 </py-script>
 
-<button onclick="f()">file</button>
+<button>files</button>
 
 </body>
 </html>
